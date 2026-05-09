@@ -249,13 +249,7 @@ npx prisma migrate dev --name init
 
 ---
 
-## 📄 License
-
-MIT — free to use, modify and distribute.
-
----
-
-## 🙏 Built With
+## ⛏️ Built With
 
 - [Groq](https://groq.com) — Lightning-fast AI inference
 - [Ayrshare](https://ayrshare.com) — Social media API
