@@ -95,6 +95,7 @@ if %errorlevel% neq 0 (
 echo [OK] Database ready
 
 :: Done
+:: Done
 echo.
 echo  ============================================
 echo   SETUP COMPLETE!
@@ -107,6 +108,10 @@ echo  Telegram Bot:  Running in background
 echo.
 echo  Press Ctrl+C to stop
 echo.
+
+:: Open browser automatically
+timeout /t 3 /nobreak >nul
+start http://localhost:3000
 
 :: Start both app and bot
 call npm run dev:all
